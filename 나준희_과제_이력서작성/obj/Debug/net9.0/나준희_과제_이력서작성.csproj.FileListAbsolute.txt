@@ -1,0 +1,15 @@
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\bin\Debug\net9.0\나준희_과제_이력서작성.exe
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\bin\Debug\net9.0\나준희_과제_이력서작성.deps.json
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\bin\Debug\net9.0\나준희_과제_이력서작성.runtimeconfig.json
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\bin\Debug\net9.0\나준희_과제_이력서작성.dll
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\bin\Debug\net9.0\나준희_과제_이력서작성.pdb
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\나준희_과제_이력서작성.GeneratedMSBuildEditorConfig.editorconfig
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\나준희_과제_이력서작성.AssemblyInfoInputs.cache
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\나준희_과제_이력서작성.AssemblyInfo.cs
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\나준희_과제_이력서작성.csproj.CoreCompileInputs.cache
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\나준희_과제_이력서작성.sourcelink.json
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\나준희_과제_이력서작성.dll
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\refint\나준희_과제_이력서작성.dll
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\나준희_과제_이력서작성.pdb
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\나준희_과제_이력서작성.genruntimeconfig.cache
+D:\객체지향\26031014_najunhee_gameproject\나준희_과제_이력서작성\obj\Debug\net9.0\ref\나준희_과제_이력서작성.dll

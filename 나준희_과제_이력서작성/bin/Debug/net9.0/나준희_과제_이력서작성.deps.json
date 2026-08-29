@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "나준희_과제_이력서작성/1.0.0": {
+        "runtime": {
+          "나준희_과제_이력서작성.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "나준희_과제_이력서작성/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
