@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("survive_60second")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3abec15f4f35609da36784dda1687b4690ae434")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ac00900232149c1b7226e7611d7b3f4faa6e2b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("survive_60second")]
 [assembly: System.Reflection.AssemblyTitleAttribute("survive_60second")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
