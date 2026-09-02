@@ -18,6 +18,8 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("survive_60second")]
 [assembly: System.Reflection.AssemblyTitleAttribute("survive_60second")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.
 
