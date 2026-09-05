@@ -9,18 +9,18 @@
 **- 60초동안 몰려오는 적을 처치해가며 생존하는 탑뷰 뱀파이어서바이벌류 게임**
 
 ##게임 시작 화면
-<img src="docs/sources/game_start.png">
+<img src="doc/sources/game_start.png">
 
 ##인 게임 화면
-<img src="docs/sources/in_game.png">
+<img src="doc/sources/in_game.png">
 
 ##게임 종료 화면
 
 게임을 클리어했을 경우
-<img src="docs/sources/game_clear.png">
+<img src="doc/sources/game_clear.png">
 
 게임을 클리어하지 못 했을 경우
-<img src="docs/sources/game_over.png">
+<img src="doc/sources/game_over.png">
 
 
 ## 게임 목적
