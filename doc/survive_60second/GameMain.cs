@@ -9,11 +9,21 @@ class GameMain : G2AppBase
 	public override System.Drawing.Size ScreenSize => GameGlobal.ScreenSize;
 	public override string GameName => GameGlobal.GameName;
 
-	protected override void Initialize()
+	private G2Texture _bgTexture = null;
+	private G2Texture _startTexture = null;
+	//private G2Font _fntMessage = null;
+    //private G2Texture
+    protected override void Initialize()
+
 	{
+		var texUiDir = "resource/ui/";
+		_bgTexture = new G2Texture(texUiDir + "backgraund.png");
+		_startTexture = new G2Texture(texUiDir + "start_button.png");
+		//_fntMessage = new G2Font("arial", 42);
 		//---------------------------------------
 		// 게임 관련 객체를 생성합니다.
 		//---------------------------------------
+		
 	}
 
 	protected override void Update()
@@ -26,9 +36,11 @@ class GameMain : G2AppBase
 			blue: (float)(Math.Sin(elapsed + Math.PI) * 0.5 + 0.5),
 			alpha: 1.0f);
 
-		//---------------------------------------
-		// 게임 관련 객체를 갱신합니다.
-		//---------------------------------------
+        //---------------------------------------
+        // 게임 관련 객체를 갱신합니다.
+        //---------------------------------------
+        //this._fntMessage.DrawText("안녕하세요", new(20, 20, 30, 30), new(0.0f,1.0f, 1.0f, 1.0f));
+		
 	}
 
 	protected override void Render()
@@ -36,6 +48,9 @@ class GameMain : G2AppBase
 		//---------------------------------------
 		// 게임 관련 객체를 렌더링 합니다.
 		//---------------------------------------
+
+		_bgTexture.Draw();
+		_startTexture.Draw(300, 600);
 	}
 
 	public override void Dispose()
@@ -44,5 +59,6 @@ class GameMain : G2AppBase
 		//---------------------------------------
 		// 게임 관련 객체를 해제합니다.
 		//---------------------------------------
+		_bgTexture.Dispose();
 	}
 }
