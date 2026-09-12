@@ -1,4 +1,4 @@
-﻿namespace survive_60second
+﻿namespace cham_cham_cham
 {
     //internal class Program
     //{
