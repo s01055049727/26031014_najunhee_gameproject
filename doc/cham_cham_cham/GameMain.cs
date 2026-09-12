@@ -11,20 +11,22 @@ class GameMain : G2AppBase
 
 	private G2Texture _bgTexture = null;
 	private G2Texture _startTexture = null;
-	//private G2Font _fntMessage = null;
-    //private G2Texture
+	private G2Texture _enemyTexture = null;
+    //private G2Font _fntMessage = null;
+    //private G2Texture _bgTexture = null;
     protected override void Initialize()
 
 	{
 		var texUiDir = "resource/ui/";
 		_bgTexture = new G2Texture(texUiDir + "backgraund.png");
 		_startTexture = new G2Texture(texUiDir + "start_button.png");
-		//_fntMessage = new G2Font("arial", 42);
-		//---------------------------------------
-		// 게임 관련 객체를 생성합니다.
-		//---------------------------------------
-		
-	}
+		_enemyTexture = new G2Texture(texUiDir + "enemy.png");
+        //_fntMessage = new G2Font("arial", 42);
+        //---------------------------------------
+        // 게임 관련 객체를 생성합니다.
+        //---------------------------------------
+
+    }
 
 	protected override void Update()
 	{
@@ -39,7 +41,7 @@ class GameMain : G2AppBase
         //---------------------------------------
         // 게임 관련 객체를 갱신합니다.
         //---------------------------------------
-        //this._fntMessage.DrawText("안녕하세요", new(20, 20, 30, 30), new(0.0f,1.0f, 1.0f, 1.0f));
+        //this._fntMessage.DrawText
 		
 	}
 
@@ -51,7 +53,8 @@ class GameMain : G2AppBase
 
 		_bgTexture.Draw();
 		_startTexture.Draw(300, 600);
-	}
+        _enemyTexture.Draw(420, 250);
+    }
 
 	public override void Dispose()
 	{
@@ -60,5 +63,7 @@ class GameMain : G2AppBase
 		// 게임 관련 객체를 해제합니다.
 		//---------------------------------------
 		_bgTexture.Dispose();
-	}
+		_startTexture.Dispose();
+		_enemyTexture.Dispose();
+    }
 }
